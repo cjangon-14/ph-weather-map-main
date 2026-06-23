@@ -1,0 +1,10 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-2px); } }
+      .cloud { animation: float 3s ease-in-out infinite; }
+    </style>
+  </defs>
+  <path class="cloud" d="M8 36 Q4 36 4 40 Q4 44 8 44 L52 44 Q56 44 56 40 Q56 36 52 36 Q50 32 44 32 Q40 28 32 28 Q22 28 18 34 Q12 34 8 36 Z" fill="#BDBDBD" stroke="#808080" stroke-width="0.5"/>
+  <path d="M12 20 Q8 20 8 24 Q8 28 12 28 L40 28 Q44 28 44 24 Q44 20 40 20 Q38 16 32 16 Q24 16 20 22 Q14 22 12 20 Z" fill="#D3D3D3" stroke="#A0A0A0" stroke-width="0.5"/>
+</svg>

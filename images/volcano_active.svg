@@ -1,0 +1,33 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .lava { 
+      fill: #ff4500; 
+      animation: pulse 1s infinite ease-in-out; 
+    }
+    .smoke {
+      fill: #aaaaaa;
+      opacity: 0.8;
+      animation: rise 2.5s infinite ease-in-out;
+    }
+    @keyframes pulse {
+      0%   { transform: scale(1);   opacity: 1; }
+      50%  { transform: scale(1.25); opacity: 0.6; }
+      100% { transform: scale(1);   opacity: 1; }
+    }
+    @keyframes rise {
+      0%   { transform: translateY(0px) scale(1); opacity: 0.8; }
+      100% { transform: translateY(-12px) scale(1.2); opacity: 0; }
+    }
+  </style>
+
+  <!-- Smoke -->
+  <circle class="smoke" cx="32" cy="20" r="6"></circle>
+  <circle class="smoke" cx="26" cy="24" r="5"></circle>
+  <circle class="smoke" cx="38" cy="26" r="5"></circle>
+
+  <!-- Volcano mountain -->
+  <path d="M16 48 L32 16 L48 48 Z" fill="#4b2e19" stroke="#2d1b11" stroke-width="2"></path>
+
+  <!-- Lava animated -->
+  <circle class="lava" cx="32" cy="20" r="5"></circle>
+</svg>

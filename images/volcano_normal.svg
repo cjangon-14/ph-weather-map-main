@@ -1,0 +1,8 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .smoke { fill: #bbbbbb; opacity: 0.4; }
+  </style>
+
+  <circle class="smoke" cx="32" cy="20" r="6"></circle>
+  <path d="M16 48 L32 16 L48 48 Z" fill="#665040" stroke="#3d2c21" stroke-width="2"></path>
+</svg>

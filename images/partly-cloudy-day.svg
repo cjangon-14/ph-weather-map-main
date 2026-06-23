@@ -1,0 +1,18 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes rotate { to { transform: rotate(360deg); } }
+      .sun { animation: rotate 20s linear infinite; transform-origin: 16px 12px; }
+    </style>
+  </defs>
+  <g class="sun">
+    <circle cx="16" cy="12" r="6" fill="#FFD700"/>
+    <g stroke="#FFD700" stroke-width="1.5" stroke-linecap="round">
+      <line x1="16" y1="2" x2="16" y2="0"/>
+      <line x1="16" y1="24" x2="16" y2="22"/>
+      <line x1="26" y1="12" x2="28" y2="12"/>
+      <line x1="6" y1="12" x2="4" y2="12"/>
+    </g>
+  </g>
+  <path d="M18 28 Q12 28 10 33 Q6 33 6 37 Q6 41 10 42 L48 42 Q52 42 52 38 Q52 35 49 34 Q47 30 42 30 Q39 28 35 28 Z" fill="#E0E0E0" stroke="#B0B0B0" stroke-width="0.5"/>
+</svg>

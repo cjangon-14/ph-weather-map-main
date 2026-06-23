@@ -1,0 +1,14 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes rain-drop { 0% { transform: translateY(-10px); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateY(20px); opacity: 0; } }
+      .drop1 { animation: rain-drop 1.5s ease-in infinite; }
+      .drop2 { animation: rain-drop 1.5s ease-in infinite 0.3s; }
+      .drop3 { animation: rain-drop 1.5s ease-in infinite 0.6s; }
+    </style>
+  </defs>
+  <path d="M6 28 Q2 28 2 32 Q2 36 6 36 L50 36 Q54 36 54 32 Q54 28 50 28 Q48 24 42 24 Q38 20 30 20 Q18 20 14 26 Q8 26 6 28 Z" fill="#B0B0B0" stroke="#707070" stroke-width="0.5"/>
+  <line class="drop1" x1="12" y1="38" x2="10" y2="48" stroke="#4A90E2" stroke-width="1.5" stroke-linecap="round"/>
+  <line class="drop2" x1="28" y1="38" x2="26" y2="48" stroke="#4A90E2" stroke-width="1.5" stroke-linecap="round"/>
+  <line class="drop3" x1="44" y1="38" x2="42" y2="48" stroke="#4A90E2" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

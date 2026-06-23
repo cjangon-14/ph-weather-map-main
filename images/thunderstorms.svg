@@ -1,0 +1,15 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes flash { 0%, 80% { opacity: 0; } 90% { opacity: 1; } 100% { opacity: 0; } }
+      @keyframes rain-drop { 0% { transform: translateY(-8px); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateY(15px); opacity: 0; } }
+      .lightning { animation: flash 2s ease-in-out infinite; }
+      .drop1 { animation: rain-drop 1.5s ease-in infinite; }
+      .drop2 { animation: rain-drop 1.5s ease-in infinite 0.4s; }
+    </style>
+  </defs>
+  <path d="M4 24 Q0 24 0 28 Q0 32 4 32 L48 32 Q52 32 52 28 Q52 24 48 24 Q46 20 40 20 Q36 16 28 16 Q16 16 12 22 Q6 22 4 24 Z" fill="#808080" stroke="#505050" stroke-width="0.5"/>
+  <path class="lightning" d="M18 35 L16 40 L20 40 L14 52 L22 42 L18 42 Z" fill="#FFD700" opacity="0.8"/>
+  <line class="drop1" x1="8" y1="34" x2="6" y2="42" stroke="#3080D0" stroke-width="1" stroke-linecap="round"/>
+  <line class="drop2" x1="38" y1="34" x2="36" y2="42" stroke="#3080D0" stroke-width="1" stroke-linecap="round"/>
+</svg>

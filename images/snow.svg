@@ -1,0 +1,23 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes fall { 0% { transform: translateY(-10px) rotate(0deg); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateY(20px) rotate(360deg); opacity: 0; } }
+      .flake1 { animation: fall 2s ease-in infinite; }
+      .flake2 { animation: fall 2s ease-in infinite 0.5s; }
+      .flake3 { animation: fall 2s ease-in infinite 1s; }
+    </style>
+  </defs>
+  <path d="M6 28 Q2 28 2 32 Q2 36 6 36 L50 36 Q54 36 54 32 Q54 28 50 28 Q48 24 42 24 Q38 20 30 20 Q18 20 14 26 Q8 26 6 28 Z" fill="#B8B8B8" stroke="#808080" stroke-width="0.5"/>
+  <g class="flake1" opacity="0.9">
+    <line x1="10" y1="40" x2="14" y2="44" stroke="#E8F4F8" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="10" y1="44" x2="14" y2="40" stroke="#E8F4F8" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <g class="flake2" opacity="0.8">
+    <line x1="30" y1="38" x2="34" y2="42" stroke="#E8F4F8" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="30" y1="42" x2="34" y2="38" stroke="#E8F4F8" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <g class="flake3" opacity="0.7">
+    <line x1="48" y1="40" x2="52" y2="44" stroke="#E8F4F8" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="48" y1="44" x2="52" y2="40" stroke="#E8F4F8" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+</svg>

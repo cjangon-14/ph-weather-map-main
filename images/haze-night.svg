@@ -1,0 +1,12 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes fade { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.7; } }
+      .haze { animation: fade 3s ease-in-out infinite; }
+    </style>
+  </defs>
+  <path d="M26 8 A12 12 0 0 1 10 20 A12 12 0 0 1 26 8" fill="#E8D5B7" opacity="0.6"/>
+  <path class="haze" d="M4 32 L56 32" stroke="#C0C0C0" stroke-width="2" stroke-linecap="round"/>
+  <path class="haze" d="M8 40 L52 40" stroke="#C0C0C0" stroke-width="2" stroke-linecap="round" style="animation-delay: 0.3s;"/>
+  <path class="haze" d="M6 48 L54 48" stroke="#C0C0C0" stroke-width="2" stroke-linecap="round" style="animation-delay: 0.6s;"/>
+</svg>
