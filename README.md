@@ -5,7 +5,7 @@ A web-based geographic visualization tool that displays real-time weather condit
 🔗 Live Demo
 
 ➡ Live Site:
-(https://cjangon14.github.io/ph-weather-map/)
+(https://cjangon-14.github.io/ph-weather-map-main/)
 
 📌 Features (Implemented)
 Category	Description
